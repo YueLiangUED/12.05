@@ -11,7 +11,7 @@
 $(function () {
     //选择套餐
     var flag = 0;
-    $('#tab').on('click','li',function () {
+    $('#tab').on('touchend','li',function () {
         var $this = $(this),
             $index = $this.index();
         flag = $index; //0 - 7 58档 - 588档
